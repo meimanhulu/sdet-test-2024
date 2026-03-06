@@ -13,7 +13,7 @@ Get Single User
 Create New User
     [Tags]    api    post
     Given I create a session for reqres API
-    When I send POST request to create user with name "John Doe" and job "Tester"
+    When I send POST request to create user with name "Sirna Mas" and job "Tester"
     Then the response status should be 201
     And the response should contain created user data
 
